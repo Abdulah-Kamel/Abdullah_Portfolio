@@ -50,14 +50,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {!isMobile ? <ComputersCanvas /> : 
-        <div className='w-[300px]'>
-      <img
-              src={computer}
-              alt="desktop computer image"
-              className='w-full h-full object-contain'
-            />
-        </div>
+      {!isMobile && <ComputersCanvas />
       }
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
