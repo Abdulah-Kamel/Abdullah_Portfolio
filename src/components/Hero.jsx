@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
+import { computer } from "../assets";
 import { ComputersCanvas } from "./canvas";
 import { useEffect, useState } from "react";
 
@@ -49,7 +50,15 @@ const Hero = () => {
         </div>
       </div>
 
-      {!isMobile && <ComputersCanvas />}
+      {!isMobile ? <ComputersCanvas /> : 
+        <div className='w-[300px]'>
+      <img
+              src={computer}
+              alt="desktop computer image"
+              className='w-full h-full object-contain'
+            />
+        </div>
+      }
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
