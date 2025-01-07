@@ -20,6 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import laravel from "./tech/laravel.png";
+import computer from "./computer.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -67,4 +68,5 @@ export {
   nike,
   Yummy,
   dainels,
+  computer,
 };
