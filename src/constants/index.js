@@ -126,9 +126,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "March 2023 - Jun 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Built responsive and dynamic web applications using React.js, integrating APIs and state management solutions.",
+      "Collaborated with designers and product managers to translate UI/UX wireframes into functional and performant features.",
+      "Ensured applications were cross-browser compatible, delivering seamless user experiences across devices.",
     ],
   },
   {
@@ -138,9 +138,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "July 2023 - September 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developed cross-platform mobile applications using React Native to ensure consistent performance on iOS and Android.",
+      "Integrated third-party libraries and APIs to add functionality, enhancing user engagement and app responsiveness.",
+      "Worked closely with stakeholders to gather requirements, troubleshoot issues, and refine app interfaces.",
     ],
   },
   {
@@ -150,21 +150,21 @@ const experiences = [
     iconBg: "#383E56",
     date: "Oct 2023 - Jan 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Built and maintained full-stack web applications with Laravel, ensuring scalability and optimal performance.",
+      "Created and managed relational databases, optimized queries, and implemented robust back-end APIs.",
+      "Collaborated with front-end developers to integrate user-facing elements, maintaining clean and modular code.",
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Full Stack Developer",
     company_name: "Freelance",
     icon: freelance,
     iconBg: "#E6DEDD",
     date: "Jan 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Designed and developed end-to-end solutions, integrating front-end and back-end technologies for seamless performance.",
+      "Deployed and maintained cloud-hosted applications, managing security, scalability, and server configurations.",
+      "Worked with clients to gather feedback, implement new features, and continuously improve the product lifecycle.",
     ],
   },
 ];
