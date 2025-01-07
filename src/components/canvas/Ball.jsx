@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useState, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
   Decal,
@@ -12,12 +12,30 @@ import CanvasLoader from "../Loader";
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
+  const [scale, setScale] = useState(2.75); // Default scale for desktop
+
+  useEffect(() => {
+    // Check if the screen width is less than 768px (mobile)
+    const handleResize = () => {
+      if (window.innerWidth <= 768) {
+        setScale(1.5);  // Smaller scale for mobile
+      } else {
+        setScale(2.75);  // Default for desktop
+      }
+    };
+
+    handleResize();  // Set initial scale based on current screen size
+    window.addEventListener("resize", handleResize);
+
+    // Clean up the listener when the component unmounts
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} />
-      <mesh castShadow receiveShadow scale={2.75}>
+      <mesh castShadow receiveShadow scale={scale}>
         <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial
           color='#fff8eb'
