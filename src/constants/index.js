@@ -27,6 +27,9 @@ import {
   nike,
   Yummy,
   dainels,
+  nextjs,
+  hashplus,
+  hashflow,
 } from "../assets/index.js";
 
 export const navLinks = [
@@ -97,10 +100,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "php",
-    icon: php,
-  },
-  {
     name: "Laravel",
     icon: laravel,
   },
@@ -109,12 +108,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "Next.js",
+    icon: nextjs,
   },
 ];
 
@@ -124,7 +119,7 @@ const experiences = [
     company_name: "Freelance",
     icon: freelance,
     iconBg: "#383E56",
-    date: "March 2023 - Jun 2023",
+    date: "Jan 2024 - Sep 2025",
     points: [
       "Built responsive and dynamic web applications using React.js, integrating APIs and state management solutions.",
       "Collaborated with designers and product managers to translate UI/UX wireframes into functional and performant features.",
@@ -132,39 +127,16 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Freelance",
+    title: "Front-end Developer",
+    company_name: "Eqtibas Information Technology",
     icon: freelance,
     iconBg: "#E6DEDD",
-    date: "July 2023 - September 2023",
+    date: "Oct 2025 - Present",
     points: [
-      "Developed cross-platform mobile applications using React Native to ensure consistent performance on iOS and Android.",
-      "Integrated third-party libraries and APIs to add functionality, enhancing user engagement and app responsiveness.",
-      "Worked closely with stakeholders to gather requirements, troubleshoot issues, and refine app interfaces.",
-    ],
-  },
-  {
-    title: "Laravel Developer",
-    company_name: "Freelance",
-    icon: freelance,
-    iconBg: "#383E56",
-    date: "Oct 2023 - Jan 2024",
-    points: [
-      "Built and maintained full-stack web applications with Laravel, ensuring scalability and optimal performance.",
-      "Created and managed relational databases, optimized queries, and implemented robust back-end APIs.",
-      "Collaborated with front-end developers to integrate user-facing elements, maintaining clean and modular code.",
-    ],
-  },
-  {
-    title: "Full Stack Developer",
-    company_name: "Freelance",
-    icon: freelance,
-    iconBg: "#E6DEDD",
-    date: "Jan 2024 - Present",
-    points: [
-      "Designed and developed end-to-end solutions, integrating front-end and back-end technologies for seamless performance.",
-      "Deployed and maintained cloud-hosted applications, managing security, scalability, and server configurations.",
-      "Worked with clients to gather feedback, implement new features, and continuously improve the product lifecycle.",
+      "Started as a Part-Time Freelancer delivering high-quality UI solutions, promoted to Full-Time Remote position.",
+      "Mastered Next.js and Shadcn UI to build scalable enterprise applications including LMS and AI-powered platforms.",
+      "Built Hash Plus LMS frontend with Next.js App Router for SEO optimization and server-side rendering.",
+      "Developed Hash Flow AI Knowledge Workspace with seamless 'Chat with PDF' interface for real-time interaction.",
     ],
   },
 ];
@@ -197,6 +169,48 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Hash Plus",
+    description:
+      "A comprehensive Learning Management System (LMS) designed to facilitate online education and course management with interactive dashboards for students and instructors.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Shadcn UI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hashplus,
+    source_code_link: "https://hash-plus.vercel.app/",
+  },
+  {
+    name: "Hash Flow",
+    description:
+      "An advanced AI-powered knowledge workspace inspired by NotebookLM that allows users to interact with documents and generate insights through a seamless Chat with PDF interface.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AI Integration",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hashflow,
+    source_code_link: "https://hash-feature-ai.vercel.app/",
+  },
   {
     name: "Fresh Cart",
     description:
@@ -261,23 +275,6 @@ const projects = [
     source_code_link: "https://notespad.vercel.app/",
   },
   {
-    name: "Nike Landing Page",
-    description:
-      "Nike Landing Page – A fully responsive, modern landing page built with HTML, CSS, and JavaScript. Designed to reflect Nike’s branding through sleek layouts.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "green-text-gradient",
-      },
-    ],
-    image: nike,
-    source_code_link: "https://nike-landing213.vercel.app/",
-  },
-  {
     name: "Yummy",
     description:
       "Yummy – A recipe web app providing seamless browsing and filtering options for dishes worldwide. it offers an intuitive design and responsive layout for food enthusiasts.",
@@ -297,27 +294,6 @@ const projects = [
     ],
     image: Yummy,
     source_code_link: "https://abdulah-kamel.github.io/Yummy/",
-  },
-  {
-    name: "Daniels Portfolio",
-    description:
-      "Daniels Portfolio – A responsive portfolio highlighting web design, development. it offers interactive project showcases and professional presentation.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: dainels,
-    source_code_link: "https://abdulah-kamel.github.io/Daniels-Portfolio/",
   },
 ];
 

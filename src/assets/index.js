@@ -21,6 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import laravel from "./tech/laravel.png";
 import computer from "./computer.png";
+import nextjs from "./Next.js.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -34,6 +35,8 @@ import NotesApp from "./NotesApp.png";
 import nike from "./nike.png";
 import Yummy from "./Yummy.png";
 import dainels from "./dainels.png";
+import hashplus from "./hashplus.png";
+import hashflow from "./hashflow.png";
 
 export {
   logo,
@@ -69,4 +72,7 @@ export {
   Yummy,
   dainels,
   computer,
+  nextjs,
+  hashplus,
+  hashflow,
 };
